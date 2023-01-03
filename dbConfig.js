@@ -1,4 +1,9 @@
 require("dotenv").config();
+const DB_DATABASE=erupe
+const DB_PORT=5432
+const DB_HOST="0.0.0.0"
+const DB_PASSWORD=123
+const DB_USER=postgres
 
 const { Pool } = require("pg");
 
